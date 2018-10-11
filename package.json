@@ -1,0 +1,29 @@
+{
+  "name": "cucumber_js_framework",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "update": "webdriver-manager update",
+    "e2e": "protractor protractor.config.js",
+    "pre-e2e": "webdriver-manager start"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/cucumber": "^4.0.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^4.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "properties-reader": "0.0.16",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.2",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^2.0.3",
+    "eslint": "^3.13.1",
+    "protractor": "^5.4.1",
+    "protractor-cucumber-framework": "^4.2.0"
+  }
+}
